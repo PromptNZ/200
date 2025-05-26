@@ -1,0 +1,27 @@
+{
+  "name": "two-hundred",
+  "version": "1.0.0",
+  "description": "HTTP Request Capture & Inspection Tool",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "200": "bunx --bun vite build && bun run src/index.ts",
+    "build": "bunx --bun vite build",
+    "serve": "bun run dist/index.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "autoprefixer": "^10.4.15",
+    "bun-types": "latest",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}
