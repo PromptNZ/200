@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "bun run src/index.ts",
-    "build": "bun build src/index.ts --outdir=dist && vite build",
+    "200": "bunx --bun vite build && bun run src/index.ts",
+    "build": "bunx --bun vite build",
     "serve": "bun run dist/index.js"
   },
   "dependencies": {

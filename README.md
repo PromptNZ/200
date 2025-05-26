@@ -1,6 +1,8 @@
-# Two-Hundred
+# 200
 
-Two-Hundred is a lightweight HTTP request capture and inspection tool that responds to all incoming requests with a "200 OK" response while storing them in memory for later inspection.
+![200 Logo(./assets/200.png)
+
+200 is a lightweight HTTP request capture and inspection tool that responds to all incoming requests with a "200 OK" response while storing them in memory for later inspection.
 
 ## Features
 
@@ -27,31 +29,27 @@ bun install
 
 ```bash
 # Start the development server
-bun run dev
+bun run 200
 ```
 
 This will start:
+
 - Capture server on port 4200
 - Inspection API on port 4201
-- Frontend on port 3000 (if built)
-
-### Building for Production
-
-```bash
-# Build the frontend for production
-bun run build
-```
+- Frontend on port 4202
 
 ## Usage
 
 ### Capturing Requests
 
 Send any HTTP request to:
+
 ```
 http://localhost:4200/any/path
 ```
 
 The server will:
+
 1. Capture the request details
 2. Respond with 200 OK
 3. Store the request in memory
@@ -61,13 +59,15 @@ The server will:
 #### Via Web Interface
 
 Open your browser to:
+
 ```
-http://localhost:3000
+http://localhost:4202
 ```
 
 Features:
+
 - View all captured requests
-- Filter by URL pattern (supports * wildcards)
+- Filter by URL pattern (supports \* wildcards)
 - View detailed request information
 - Clear all captured requests
 
