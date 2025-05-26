@@ -1,6 +1,6 @@
 # 200
 
-![200 Logo(./assets/200.png)]
+![200 Logo](https://github.com/PromptNZ/200/raw/main/assets/200.png)
 
 200 is a lightweight HTTP request capture and inspection tool that responds to all incoming requests with a "200 OK" response while storing them in memory for later inspection.
 
